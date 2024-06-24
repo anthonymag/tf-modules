@@ -7,6 +7,6 @@ terraform {
 }
 
 provider "pihole" {
-  url = var.pihole_url
+  url       = var.pihole_url
   api_token = var.pihole_api_token
 }
